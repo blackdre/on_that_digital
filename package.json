@@ -7,6 +7,10 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@popperjs/core": "^2.10.1",
+    "@splidejs/vue-splide": "^0.3.5",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.1.0",
     "core-js": "^3.6.5",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0"

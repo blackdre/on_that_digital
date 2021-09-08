@@ -1,10 +1,20 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
-  <router-view/>
+  <!-- <router-view /> -->
+  <About />
+  <Services />
+  <Carousel />
+  <Footer />
 </template>
+
+<script>
+import Footer from "./components/layouts/Footer.vue";
+import Carousel from "./components/layouts/Carousel.vue";
+import Services from "./components/layouts/Services.vue";
+import About from "./components/About.vue";
+export default {
+  components: { Footer, Carousel, Services, About },
+};
+</script>
 
 <style lang="scss">
 #app {
